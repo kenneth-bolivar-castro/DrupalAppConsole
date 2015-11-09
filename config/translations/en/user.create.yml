@@ -1,0 +1,16 @@
+description: 'Create new entity user.'
+help: 'The <info>user:create</info> create a new account.'
+options:
+    name: 'Username.'
+    pass: 'Password.'
+    mail: 'Email address.'
+questions:
+    name: 'Enter username:'
+    pass: 'Enter password:'
+    mail: 'Enter email address:'
+messages:
+    successful: 'New user was created successfully (Uid: %s).'
+errors:
+    mail: 'Invalid email address.'
+    required: '%s is required.'
+    runtime: 'Runtime exception while system was creating an entity user.'

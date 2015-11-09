@@ -1,0 +1,16 @@
+description: 'Crea nueva entidad de usuario.'
+help: 'El <info>user:create</info> create una nueva cuenta de usuario.'
+options:
+    name: 'Nombre de usuario.'
+    pass: 'Contraseña.'
+    mail: 'Correo electrónico.'
+questions:
+    name: 'Ingrese nombre de usuario.'
+    pass: 'Ingrese contraseña.'
+    mail: 'Ingrese dirección de correo electrónico.'
+messages:
+    successful: 'Nuevo usuario creado con exito (Uid: %s).'
+errors:
+    mail: 'Correo electrónico invalido.'
+    required: '%s es requerido.'
+    runtime: 'Excepción en tiempo de ejecución mientras el sistema creaba la entidad de usuario.'
